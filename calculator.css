@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Vollkorn:ital,wght@0,400..900;1,400..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(45deg, #0a0a0a, #3a4452);
+}
+
+.calculator {
+    border: 1px solid #717377;
+    padding: 20px;
+    border-radius: 16px;
+    background: transparent;
+    box-shadow: 0px 3px 15px rgba(113, 115, 119, 0.5);
+
+}
+
+input {
+    width: 320px;
+    border: none;
+    padding: 24px;
+    margin: 10px;
+    background: transparent;
+    box-shadow: 0px 3px 15px rgbs(84, 84, 84, 0.1);
+    font-size: 40px;
+    text-align: right;
+    cursor: pointer;
+    color: #ffffff;
+}
+
+input::placeholder {
+    color: #ffffff;
+}
+
+button {
+    border: none;
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    border-radius: 25%;
+    background: rgba(22, 21, 21, 0.82);
+    color: #e5eef0;
+    font-size: 25px;
+    box-shadow:  8px 8px 15px rgba(253, 238, 238, 0.1);
+    cursor: pointer;
+}
+
+button:hover{
+    background: #20232c;
+}
+
+
+
+
+.button-operator{
+    font-size: 20px;
+    color:#101416;
+    background-color:rgb(148, 202, 246);
+}
+
+.button-operator:hover{
+    background-color: rgb(148, 202, 246);
+}
+
+.equalBtn {
+    background-color:rgb(11, 105, 2);
+    box-shadow:none;
+    height: 45px;
+    width: 80px;
+    border-radius:25px;
+    box-shadow: 8px 8px 15px rgba(253, 238, 238, 0.1);
+    color: #ebf0f0;
+}
+
+.equalBtn:hover{
+    background-color: rgb(11, 105, 2);
+}
+
+.operator {
+    color: #f9f9db;
+    font-size: 32px;
+    background-color: rgb(2, 46, 103)
+}
+
+.operator:hover{
+    background-color: rgb(2, 46, 103)
+}
